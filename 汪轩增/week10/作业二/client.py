@@ -15,7 +15,7 @@ from agents import (
 from agents.mcp.server import MCPServerSse
 
 
-os.environ["OPENAI_API_KEY"] = "sk-bf4240833ba44d6ea4e6b33dacd6be11"
+os.environ["OPENAI_API_KEY"] = "sk-bf4240833btopabue6b33dacd6be11"
 os.environ["OPENAI_BASE_URL"] =  "https://api.deepseek.com"
 set_default_openai_api("chat_completions")
 set_tracing_disabled(True)

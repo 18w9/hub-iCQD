@@ -8,7 +8,7 @@ from pydantic import BaseModel, ValidationError
 
 # 将密钥设置在系统环境变量 OPENAI_API_KEY 中，不要把真实密钥写进代码。
 # 本示例通过 DeepSeek 的 OpenAI 兼容接口调用模型。
-os.environ["OPENAI_API_KEY"] = "sk-bf4240833ba44d6ea4e6b33dacd6be11"
+os.environ["OPENAI_API_KEY"] = "sk-bf4240833topabub33dacd6be11"
 os.environ["OPENAI_BASE_URL"] =  "https://api.deepseek.com"
 set_default_openai_api("chat_completions")
 set_tracing_disabled(True)

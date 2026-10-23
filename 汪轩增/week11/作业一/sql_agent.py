@@ -15,7 +15,7 @@ from urllib.parse import quote
 
 
 # OpenAI-compatible API configuration
-os.environ["OPENAI_API_KEY"] = "sk-bf4240833ba44d6ea4e6b33dacd6be11"
+os.environ["OPENAI_API_KEY"] = "sk-bf424083topabu4e6b33dacd6be11"
 os.environ["OPENAI_BASE_URL"] = "https://api.deepseek.com"
 
 
